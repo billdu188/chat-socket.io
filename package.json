@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "a litter",
   "main": "jquery-2.1.4.min.js",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "socket.io": "^1.4.5",
     "express": "^4.13.4"
