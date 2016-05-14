@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta >
+	<title>Chat</title>
+	<link rel="stylesheet" href="style/css/main.css">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+	<div id="wrapper">
+		<div id="banner">
+			<h1>youhaha:)</h1>
+			<span id="status"></span>
+		</div>
+		<div id="historyMsg"></div>
+		<div class="controls">
+			<div class="items">
+				<input type="color" id="colorStyle" placeHolder="#456" title="font color"/>
+				<input type="button" id="emoji" value="emoji" title="emoji"/>
+				<label for="sendImage" type="file" class="imageLabel">
+					<input type="button" value="image"/>
+					<input type="file" id="sendImage" value="image"/>
+				</label>
+				<input type="button" id="clearBtn" value="clear" title="clear-title"/>
+			</div>
+			<textarea name="" id="messageInput" cols="43" rows="10" placeholder="enter to send"></textarea>
+			<input type="button" id="sendBtn" value="SEND"/>
+			<div id="emojiWrapper"></div>
+		</div>
+	</div>
+	<div id="loginWrapper">
+		<p id="info">connect to server...</p>
+		<div id="nickWrapper">
+			<input type="text" id="nickNameInput" placeHolder="nickname"/>
+			<input type="button" id="loginBtn" value="OK"/>
+		</div>
+	</div>
+	<script src="js/socket.io.js"></script>
+	<script src="js/chat.js"></script>
+</body>
+</html>
