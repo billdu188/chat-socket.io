@@ -1,0 +1,65 @@
+body {
+  margin: 0 auto;
+  width: 400px; }
+
+#banner {
+  background-color: #858484; }
+  #banner h1 {
+    color: #5CF9C8; }
+
+#historyMsg {
+  height: 300px;
+  overflow: auto;
+  border: 0.5px solid #C7CCCB;
+  background-color: rgba(189, 252, 226, 0.4); }
+
+.controls {
+  padding: 3px 5px;
+  position: relative;
+  background-color: #D6D3D3; }
+  .controls .items {
+    position: relative;
+    opacity: 0.5;
+    filter: alpha(opacity=50); }
+    .controls .items input {
+      height: 25px;
+      border: 1px solid #ADADAD; }
+    .controls .items #colorStyle {
+      width: 50px;
+      border: none;
+      padding: 0;
+      top: 3px;
+      left: 0;
+      position: relative; }
+    .controls .items #sendImage {
+      position: absolute;
+      opacity: 0;
+      overflow: hidden;
+      left: 0px;
+      width: 50px; }
+  .controls #messageInput {
+    border: none; }
+  .controls #sendBtn {
+    height: 80px;
+    position: absolute;
+    bottom: 5px;
+    right: 10px; }
+
+.imageLabel {
+  position: relative; }
+
+#loginWrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(5, 5, 5, 0.6);
+  text-align: center;
+  padding-top: 200px;
+  display: block;
+  color: #fff; }
+  #loginWrapper #nickWrapper {
+    display: none; }
+
+/*# sourceMappingURL=main.css.map */
